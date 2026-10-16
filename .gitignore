@@ -1,0 +1,52 @@
+# Unity 生成 / 临时文件
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# 本项目构建产物目录
+outputsoft/
+
+# IDE 生成文件（Unity 会自动重新生成）
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+.vsconfig
+.idea/
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.stackdump
+
+# Unity3D 自动生成
+sysinfo.txt
+
+# Crashlytics / 打包产物
+crashlytics-build.properties
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Asset meta 相关（仅忽略被删除资源残留的临时 meta）
+!/[Aa]ssets/**/*.meta
+/[Aa]ssets/**/*.meta.tmp
